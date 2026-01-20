@@ -1,0 +1,23 @@
+"""
+Application-wide constants
+"""
+
+# User Roles
+ROLE_BUYER = "buyer"
+ROLE_SELLER = "seller"
+
+# Order Status
+ORDER_PLACED = "PLACED"
+ORDER_PAID = "PAID"
+ORDER_SHIPPED = "SHIPPED"
+ORDER_DELIVERED = "DELIVERED"
+ORDER_CANCELLED = "CANCELLED"
+
+# Payment Status
+PAY_INITIATED = "INITIATED"
+PAY_SUCCESS = "SUCCESS"
+PAY_FAILED = "FAILED"
+PAY_REFUNDED = "REFUNDED"
+
+# Payment Configuration
+MAX_PAYMENT_ATTEMPTS = 3
