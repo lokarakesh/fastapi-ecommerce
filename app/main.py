@@ -91,10 +91,10 @@ def health_check():
 # -------------------------------------------------
 app.include_router(auth.router)
 app.include_router(product.router)
+app.include_router(inventory.router)
 app.include_router(cart.router)
 app.include_router(order.router)
 app.include_router(payment.router)
-app.include_router(inventory.router)
 app.include_router(admin.router)
 
 
