@@ -327,9 +327,6 @@ app.include_router(new_router.router)
 - Always rollback on errors
 - Log important operations
 
-## 📄 License
-
-MIT License
 
 ## 🤝 Contributing
 
@@ -340,7 +337,6 @@ MIT License
 5. Submit a pull request
 
 ## 📞 Support
-https://claude.ai/public/artifacts/d54a83d8-46aa-4210-9ce2-5b3c981e4704
 https://claude.ai/public/artifacts/e3165c1a-113a-4cb7-8cb4-12194b55f517
 https://claude.ai/public/artifacts/769b506d-f197-403e-aca3-c5e3e93102f4
 For issues and questions, please open an issue on GitHub.
